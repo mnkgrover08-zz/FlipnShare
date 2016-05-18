@@ -1,0 +1,1 @@
+<h1 class="title"><?php echo $articleJson->heading; ?></h1>

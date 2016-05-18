@@ -1,0 +1,249 @@
+body{margin-top:10px;font-family:'Lato', sans-serif;font-weight:300}
+.half-height{
+    max-height:45vh;
+	overflow:hidden;
+}
+.full-height{
+    max-height:98vh;
+	overflow:hidden;
+}
+
+.three-fourth-height{
+	max-height:65vh;
+	overflow:hidden;
+}
+.one-fourth-height{
+	max-height:25vh;
+	overflow:hidden;
+}
+.theevent h1{margin:0 0 10px 0;padding:0;font-size:28px}
+.theevent{background:#f3d87a;padding:20px;font-size:18px}
+
+.imgoverlay{position:absolute;bottom:5px;padding:20px;background:#000;opacity:0.75;margin-right:15px}
+.imgoverlay h3{font-size:18px;color:#fff;margin:0;padding:0}
+
+::-webkit-scrollbar {  
+    width: 6px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: rgba(0,0,0,0.3);  
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: rgba(0,0,0,0.3);  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: rgba(0,0,0,0.6);  
+}  
+
+.bgimage{
+	background-image: url('../images/sunset-full-large.jpg') !important;
+	background-repeat: no-repeat !important;
+	height: 950px !important;
+	background-position: 3% 0% !important;
+	width:100% !important;
+}
+
+
+.fashion .imgoverlay{
+	padding:10px;opacity:0.95;right:20px;
+
+	width: 80px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.fashion .imgoverlay h3{
+	line-height:55px;font-size:20px;font-weight:bold;text-align:center
+}
+.fashion .theevent{
+	background: #01c8c1;color:#fff;
+}
+.right-align{text-align:right}
+
+.cover-type1{
+	max-height:85vh;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.cover-side-box{
+	max-height: 73vh;
+overflow-y: scroll;
+/* background: #f1f1f1; */
+padding: 0 10px;
+margin: 15% 0 0 9%;
+width: 80%;
+/* padding: 5px 5% 5px 5%; */
+background: rgba(0,0,0,0.3);
+color: #fff;
+border-left: 1px solid #333;
+box-shadow: 0px 0px 2px 1px #333;
+}
+
+
+
+.cover-type2{position:relative;max-height:85vh;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.overlaybox{position:absolute}
+
+.cover-side-box ul{padding-left:18px}
+.cover-side-box ul li{list-style:none;padding-bottom:5px;}
+.cover-side-box h3{margin-bottom:5px;font-size:1.5em;font-weight:normal;font-family:"Linux Libertine", "Georgia",serif;text-transform:uppercase;}
+.cover-side-box h2{color:#dd9800;font-size:2em;font-weight:bold;font-family:"Linux Libertine", "Georgia",serif;text-shadow:none;text-align:center;padding-bottom:0px;margin-bottom:10px;}
+.cover-side-box p {padding:0px!important;}
+
+
+/*   Mobiles    */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+body{
+	overflow-x:hidden !important;
+}
+.mobile-custom{
+	display: none !important;
+}
+
+.bgimage{
+	height: 300px!important;
+}
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+	
+	h3{
+	font-size: 15px !important;
+	}
+	h2{
+		font-size: 19px !important;
+	}
+	.bgimage{
+	background-image: url('../images/sunset-full-medium.jpg') !important;
+	background-repeat: no-repeat !important;
+	height: 650px !important;
+	background-position: 3% 0% !important;
+	width:99% !important;
+	}
+	body{
+		overflow: hidden !important;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+	.col-md-4{
+	width: 33% !important;
+	float: left !important;
+	}
+	
+	.bgimage{
+	background-image: url('../images/sunset-full-large.jpg') !important;
+	background-repeat: no-repeat !important;
+	height: 1050px !important;
+	background-position: 3% 0% !important;
+	width:99% !important;
+	}
+
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (max-width : 1366px) and (max-height: 667px) {
+	
+	.cover-type1{
+		max-height:75vh;
+		overflow:hidden;
+	}
+	.bgimage{
+	background-image: url('../images/sunset-full-medium.jpg') !important;
+	background-repeat: no-repeat !important;
+	height: 647px !important;
+	background-position: 3% 0% !important;
+	width:99% !important;
+	}
+	.cover-side-box{
+		max-height: 63vh !important;
+	}
+	h3{
+	font-size: 19px !important;
+	}
+	h2{
+		font-size: 24px !important;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	.cover-type1{
+		max-height:80vh;
+		overflow:hidden;
+	}
+	.bgimage{
+		background-image: url('../images/sunset-full-large.jpg') !important;
+		background-repeat: no-repeat;
+		height: 959px;
+		background-position: 51% 0%;
+	}
+}
+
+#item2{
+	background: transparent !important;
+}
+
+p{
+	text-align: initial !important;
+	margin: 0 !important;
+}
+
+.container-fluid{
+/*	z-index: 99999!important;
+	position: absolute!important;*/
+	padding-left:0px;
+	padding-right:0px;	
+}
+
+.cover-side-box{
+	z-index: 100000
+}

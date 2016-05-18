@@ -1,0 +1,1 @@
+<div class="subcategory"><?php echo $articleJson->subcategory; ?></div>

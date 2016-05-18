@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "title": "Fort Lauderdale Daily",
+	"publication": "A Gulfstream Media Group Publication",
+    "description": "Gold Coast Magazine's Fort Lauderdale Daily is your insider's guide to Fort Lauderdale's restaurants, attractions, real estate, shopping, and cultural scene.",
+    "keywords": "Gold Coast, Fort Lauderdale, magazine, beaches, balance, beauty, style file, makeup, make up, society, digital edition, Bernard McCormick, Bernie McCormick, Mark McCormick, restaurant, food, dining, Top Docs, Fort Lauderdale Travel Guide",
+    "author": "Gulf Stream Media Group",
+    "opengraph": {
+      "og_title": "Fort Lauderdale Daily",
+      "og_image": "http://192.168.1.134/flipandshare/content-area/sites/default/files/articles/Features/2014/11/SouthFloridaInStyle.jpg",
+      "og_description": "Gold Coast Magazine's Fort Lauderdale Daily is your insider's guide to Fort Lauderdale's restaurants, attractions, real estate, shopping, and cultural scene.",
+      "og_url": "http://192.168.1.134/flipandshare",
+      "og_type": "flipandshare:magazine"
+    },
+    "twitter": {
+      "twitter_title": "Fort Lauderdale Daily",
+      "twitter_card": "summary_large_image",
+      "twitter_site": "flipandshare",
+      "twitter_image": "http://192.168.1.134/flipandshare/content-area/sites/default/files/articles/Features/2014/11/SouthFloridaInStyle.jpg",
+      "twitter_description": "Gold Coast Magazine's Fort Lauderdale Daily is your insider's guide to Fort Lauderdale's restaurants, attractions, real estate, shopping, and cultural scene.",
+      "twitter_url": "http://192.168.1.134/flipandshare"
+    }
+  }
+}
